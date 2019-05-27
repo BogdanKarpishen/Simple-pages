@@ -1,0 +1,238 @@
+@font-face{
+    font-family: Chivo;
+    src:url(fonts/Chivo-Regular.ttf)
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family:Chivo,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    /*-------------------*/
+}
+h2,p, img{
+    margin: 0px;
+}
+img[src^="photo"]{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+
+}
+img[src^="photo"]:hover{
+    cursor: grab;
+    opacity: 0.7;
+}
+img[src="icon7.png"]{
+    width: 5vh;
+    margin: 1vh auto;
+}
+hr{
+    margin: auto;
+    margin-top: 1vh;
+    width: 5vh;
+    height: 0.5vh;
+    background-color:white;
+    border-style: solid;
+}
+.header{
+    position: relative;
+    width: 700px;
+    height: 100px;
+    margin: auto;
+    top: 50px;
+    text-align: center;
+}
+header .conteiner{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20vh;
+    background-color: rgb(222, 43, 36);
+    color: white;
+}
+header .table{
+    position: relative;
+    top:20px;
+    width: 75%;
+    height: 25vw;
+    margin: auto;   
+}
+.table .row {
+    text-align: center;
+    height: 50%;
+}
+.row .cell {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 100%;
+    background-color: rgb(243, 94, 89);
+}
+
+.cell div{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+}
+.table .cell:hover{
+    background-color: brown;
+}
+ span{
+    font-size: 22px;
+}
+
+#section_top .container{
+    position: relative;
+    width: 100%;
+    height: 70em;
+    background-color: rgb(18, 135, 191);
+    color: white;
+}
+#section_top #arrow{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+#section_top #arrow circle:hover{
+    fill: blue;
+}
+#section_top #cross{
+    position: absolute;
+    top: -45px;
+    right: -60px;
+}
+#section_top #cross circle:hover{
+    fill:brown;
+}
+#section_top #form{
+    position: relative;
+    width: 50%;
+    min-width: 500px;
+    height: 40%;
+    top:50px;
+    margin: auto;
+    text-align: center;
+    border-radius: 3px;
+    color:black;
+    background-color: white;
+}
+#section_top #form:after, #form::before{
+    bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	position: absolute;
+	pointer-events: none;
+}
+#section_top #form:after{
+	border-bottom-color: white;
+	border-width: 40px;
+	margin-left: -40px;
+}
+#section_top #form .input{
+    margin-top: 10px;
+    padding:5px 20px;
+    width: 60%;
+    height: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    
+}
+#section_top #form label{
+    display: block;
+}
+.input:focus{
+    background-color: blanchedalmond;
+}
+#section_top #form #submit{
+    margin-top:50px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(222, 43, 36);
+    border: none;
+    border-radius: 5px;
+    color:white;
+    font:bold;
+}
+#section_top #form #submit:hover{
+    background-color: brown;
+}
+#section_bottom .container{
+    position: relative;
+    width: 100%;
+    height: 420px;
+    text-align: center;
+    background-color: rgb(42,42,42);
+    color: white;
+}
+#section_bottom .header{
+    position: relative;
+    top:70px;
+    width: 240px;
+    height: 150px;
+    margin: auto;
+}
+#section_bottom a{
+    float: left;
+    margin-top:20px;
+    margin-left: 15px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(81, 81, 81);
+    border-radius: 3px;
+}
+#section_bottom a:hover{
+    border: 2px solid brown
+}
+#section_bottom a img{
+    position: relative;
+    top:7px;
+}
+#section_bottom #form{
+    position: relative;
+    top:20px;
+    color: rgb(151, 151, 151);
+}
+#section_bottom #form #email{
+    position: relative;
+    top:20px;
+    padding:0 20px;
+    width: 50%;
+    height: 40px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(81, 81, 81);
+}
+#section_bottom #form [type="submit"]{
+    top:50px;
+    padding: 15px 40px;
+    position: relative;
+    border: 2px solid rgb(81, 81, 81);
+    border-radius: 2px;
+    background-color: rgb(42,42,42);
+    color: white;
+    font-size: 1em;
+}
+#section_bottom #form [type="submit"]:hover{
+    background-color: rgb(81, 81, 81);
+}
+footer .container{
+    position: relative;
+    height: 50px;
+    background-color: rgb(81, 81, 81);
+    color: rgb(151, 151, 151);
+    text-align: center;
+}
+.holder{
+    line-height: 50px;
+}
+
+
